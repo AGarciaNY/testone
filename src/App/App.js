@@ -1,9 +1,12 @@
 import React from 'react';
 import Nav from '../Nav/Nav'
-
+import Footer from '../Footer/Footer'
 function App() {
   return (
-      <Nav/>
+  <div>
+    <Nav/>
+    <Footer/>
+  </div>
   );
 }
 
