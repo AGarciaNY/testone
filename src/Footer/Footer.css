@@ -1,7 +1,5 @@
 #Footer{
     width:100%;
-    position: fixed;
-    bottom: 0;
     background: linear-gradient(transparent,#484848,black,black);
     color:white;
 }
