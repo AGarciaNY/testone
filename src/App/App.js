@@ -6,34 +6,6 @@ function App() {
   return (
   <div id="body">
     <Nav/>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
-    <h1>hi</h1>
     <Footer/>
   </div>
   );
