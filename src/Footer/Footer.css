@@ -1,0 +1,27 @@
+#Footer{
+    width:100%;
+    background: linear-gradient(transparent,#484848,black,black);
+    color:white;
+    font-family: 'Merienda One', cursive;
+}
+#HeadingCon{
+    text-align: center;
+}
+#Footerheading{
+    font-size: 24px;
+}
+.Contact{
+    font-size: 20px;
+}
+.ContactI{
+    font-size: 18px;
+    margin: 0;
+}
+#Information{
+    list-style-type: none;
+}
+.Conlist{
+    height:40px;
+    display: flex;
+    flex-direction: row;
+}
