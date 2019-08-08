@@ -24,7 +24,8 @@ const Aboutme = styled(AboutMe)`
   }
 `;
 
-const Mylerning = styled(MyLerning)``;
+const Mylerning=styled(MyLerning)`
+`;
 
 const Home = () => (
     <Contaner >
