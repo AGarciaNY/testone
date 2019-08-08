@@ -1,33 +1,39 @@
 import React from 'react';
-import './Home.css';
 import styled from '@emotion/styled';
-import pig from '../img/pig.png';
+
+import PortfolioPic from './home-items/port-image';
+import AboutMe from './home-items/about-me';
+import MyLerning from './home-items/my-learning'; 
+
 const Contaner = styled.div`
   font-family: 'Merienda One', cursive;
-`;
-
-const ImageContaner = styled.div`
-  display: flex;
-  justify-content: center;
-`;
-
-const MyPic = styled.img`
-  height: 200px;
-  border-radius: 100%;
 `;
 
 const Header = styled.h1`
   text-align: center;
 `;
 
+const HomeContent = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+
+const Aboutme = styled(AboutMe)`
+  &:hover{
+    
+  }
+`;
+
 const Home = () => (
     <Contaner >
-      <ImageContaner>
-        <MyPic src={pig} alt=''/>
-      </ImageContaner>
+      <PortfolioPic/>
       <Header>
           Hi I am Aldair
       </Header>
+      <HomeContent>
+        <Aboutme/>
+        <MyLerning/>
+      </HomeContent>
     </Contaner> 
 );
 
