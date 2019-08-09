@@ -8,7 +8,7 @@ const ImageContaner = styled.div`
 `;
 const MyPic = styled.img`
   height: 200px;
-  border-radius: 100%;
+  border-radius: 1001%;
 `;
 
 const PortfolioPic = () => (
