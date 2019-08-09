@@ -62,23 +62,41 @@ const DropdownHolder=styled.div`
   background:transparent;
   min-width: 140px;
   border-radius: 20px;
-  &:hover button{
-  }
+  padding:8px 0 0;
 `;
 
 const TextFont = styled.button`
   display: block;
-  background:transparent;
-  min-width: 140px;
+  background:gray;
+  width: 140px;
+  height:30px;
   z-index: 1;
-  border-radius: 20px
+  border-radius: 20px;
   text-decoration: none;
   color:white;
+  font-size:15px;
+  &:hover{
+    position:absolute;
+    left:-10px;
+    width: 160px;
+    height:35px;
+    font-size:18px;
+  }
 `;
 
 const Right=styled.li`
   list-style-type:none;
   float:right;
+`;
+
+const Text = styled.div`
+width: 140px;
+height:30px;
+margin:3px 0;
+position:relative;
+&:hover{
+  margin:5px 0;
+}
 `;
 
 const Nav= () => (
@@ -91,9 +109,9 @@ const Nav= () => (
           <DropDown>
             <DropButton>Dropdown</DropButton>
             <DropdownHolder>
-              <TextFont>Link 1</TextFont>
-              <TextFont>Link 2</TextFont>
-              <TextFont>Link 3</TextFont>
+              <Text><TextFont>Link 1</TextFont></Text>
+              <Text><TextFont>Link 2</TextFont></Text>
+              <Text><TextFont>Link 3</TextFont></Text>
             </DropdownHolder>
           </DropDown>
         </Right>
